@@ -5,16 +5,56 @@
 }
 
 body{
-    margin: 0;
+  height: 1000px;
+    margin: 100px;
     font-family: Arial, Helvetica, sans-serif;
 }
-
-#card{
+img{
+  width: 100%;
+}
+#card{ 
   margin: auto;
-  border: 1px solid black ;
+  /* border: 1px solid black ; */
   border-radius: 62px;
   width: 230px;
-  height: 300px;
+  height: 325px; 
   display: flex;
   align-items: center;
-} 
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  background-color: #fbf7e3;
+}
+
+#containerText{
+  padding-top: 10px;
+  font-size: large;
+  display: flex;
+  align-items: center;
+  justify-content: space-around ;
+  gap: 21px;
+}
+span{
+  font-weight: bold;
+}
+
+button{
+  margin-top: 21px;
+padding-top: 3px;
+-webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  text-shadow: 0px 0px 30px #612406;
+  font-family: Arial;
+  color: #612406;
+  font-size: 22px;
+  background: #f3df85;
+  padding: 10px 25px 10px 25px;
+  border: solid #f7f2dc 2px;
+  text-decoration: none;
+}
+
+#dollar{
+  display: block;
+  inset-block: ;
+}
