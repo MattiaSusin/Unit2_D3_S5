@@ -1,0 +1,130 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+
+/* -------------------------------------------------NAVIGATION BAR----------------------------------------------------------> */
+body{
+    height: 1000px;
+      margin: 0px;
+      font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  #navBar{
+    display: flex;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+    /* border: 5px solid black; */
+    padding: 10px;;
+    background-color: #fbf7e3;
+    border-radius: 50px;
+  
+  }
+  article{
+    /* border: 1px solid black; */
+    padding: 12px 25px;
+    border-radius: 30px;
+    background-color: #f3df85;
+  }
+  
+  
+  #n3{
+    padding: 20px 55px;
+    font-weight: bold;
+    font-size: xx-large;
+  
+  }
+  button{
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    text-shadow: 0px 0px 30px #612406;
+    font-family: Arial;
+    color: #612406;
+    font-size: 22px;
+    background: #f3df85;
+    padding: 10px 25px 10px 25px;
+    border: solid #f7f2dc 2px;
+    text-decoration: none;
+  }
+  
+  #shop{
+    webkit-border-radius: 28;
+      -moz-border-radius: 28;
+      border-radius: 28px;
+      text-shadow: 0px 0px 30px #612406;
+      font-family: Arial;
+      color: #612406;
+      font-size: 22px;
+      background: #f3df85;
+      /* padding: 18px 96px; */
+      border: solid #f7f2dc 2px;
+      text-decoration: none;
+      display: flex;
+      justify-content: space-between;
+      column-gap: 40px;
+      align-items: center;
+      font-size: 50px;
+  }
+/* -------------------------------------------------CARDS----------------------------------------------------------> */
+.imgCards{
+    width: 100%;
+
+  }
+  #card{ 
+    margin: auto;
+    /* border: 1px solid black ; */
+    border-radius: 62px;
+    width: 230px;
+    height: 325px; 
+    display: flex;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    background-color: #fbf7e3;
+  }
+  
+  #containerText{
+    padding-top: 10px;
+    font-size: large;
+    display: flex;
+    align-items: center;
+    justify-content: space-around ;
+    gap: 21px;
+  }
+  span{
+    font-weight: bold;
+  }
+  
+  button{
+    margin-top: 21px;
+  padding-top: 3px;
+  -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    text-shadow: 0px 0px 30px #612406;
+    font-family: Arial;
+    color: #612406;
+    font-size: 22px;
+    background: #f3df85;
+    padding: 10px 25px 10px 25px;
+    border: solid #f7f2dc 2px;
+    text-decoration: none;
+  }
+  
+  #dollar{
+    display: block;
+    inset-block: ;
+  }
+  #totCards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+/* -------------------------------------------------ARTICLE----------------------------------------------------------> */
+
