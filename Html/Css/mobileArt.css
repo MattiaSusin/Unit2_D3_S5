@@ -1,0 +1,46 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+#containerA{
+    width: 300px ;
+    height:550px ;
+    /* border: solid black; */
+    border-radius: 50px;
+    background-color: #fbf7e3;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden; /* fa prendere all'immagine tutto il contorno del bordo */
+}
+
+img{
+    height: 35% ;
+    width: 100%;
+    padding: 2px 18px 7px 25px;  
+}
+
+#contText{
+    padding-top: 20px;
+    padding-left: 24px ;
+    padding-right: 24px;
+    color: #612406;
+    margin: 0;
+}
+
+p h2 {
+    margin: 0;
+}
+
+@media screen and (max-width: 767px) {
+    header,
+    header ul {
+      flex-direction: column;
+    }
